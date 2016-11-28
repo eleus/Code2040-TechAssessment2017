@@ -6,7 +6,7 @@
 >  * Information about the repository
 
 >Explaination
->  * Provides explaination for the file in this repository and other bit
+>  * Provides explaination for the files in this repository and other bit
 
 >Instructions
 >  * Provides the exact directions given
@@ -21,6 +21,8 @@ This repository is for the 2017 Code2040 Technical Assessment. It utilizes **JSO
 
 
 # Explaination
+
+Token: The value of the token is stored loacally, so it has to be imported.
 
 Alternative formatting for data POST requests (assuming 'body' is the data to be sent):
 ```python
@@ -42,7 +44,7 @@ Documentations utilized:
 
 ----------
 ### Step I: Registration
-File: [Step1_Registration.py](url)
+File: [Step1_Registration.py](https://github.com/eleus/Code2040-TechAssessment2017/blob/master/Step1_Registration.py)
 
 To get started, you’re first going to connect to the registration endpoint. It lives here:
 
@@ -56,7 +58,7 @@ For `token`, pass in a string with the token you see above. For `github`, pass i
 
 ----------
 ### Step II: Reverse a string
-File: [Step2_Reverse.py](url)
+File: [Step2_Reverse.py](https://github.com/eleus/Code2040-TechAssessment2017/blob/master/Step2_Reverse.py)
 
 Once you’re registered, it’s time to get started on the challenges.
 The first one is straightforward. You’re going to reverse a string.
@@ -77,7 +79,7 @@ Use the key `string` for your reversed string.
 
 ----------
 ### Step III: Needle in a haystack
-File: [Step3_Needle.py](url)
+File: [Step3_Needle.py](https://github.com/eleus/Code2040-TechAssessment2017/blob/master/Step3_Needle.py)
 
 Next, let’s check your skills for working with collections.
 We’re going to send you a dictionary with two values and keys. The first value, `needle`, is a string. The second value, `haystack`, is an array of strings. You’re going to tell the API where the needle is in the array.
@@ -97,7 +99,7 @@ Use the key `needle` for the integer representing where the needle was in the ar
 
 ----------
 ### Step IV: Prefix
-File: [Step4_Prefix.py](url)
+File: [Step4_Prefix.py](https://github.com/eleus/Code2040-TechAssessment2017/blob/master/Step4_Prefix.py)
 
 Great job -- but we’re not done with collections.
 In this challenge, the API is going to give you another dictionary. The first value, `prefix`, is a string. The second value, `array`, is an array of strings. Your job is to return an array containing only the strings that do not start with that prefix.
@@ -119,7 +121,7 @@ Use the key `array` for your array.
 
 ----------
 ### Step V: The dating game
-File: [Step5_DatingGame.py](url)
+File: [Step5_DatingGame.py](https://github.com/eleus/Code2040-TechAssessment2017/blob/master/Step5_DatingGame.py)
 
 Great job so far. The last challenge is a little different. You’re going to work with dates and times.
 The API will again give you a dictionary. The value for `datestamp` is a string, formatted as an **ISO 8601 datestamp**. The value for `interval` is a number of seconds.
