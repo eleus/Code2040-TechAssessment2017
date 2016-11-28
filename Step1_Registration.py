@@ -14,4 +14,4 @@ register_api_url = 'http://challenge.code2040.org/api/register'
 body = {'token': token, 'github' : 'https://github.com/eleus/Code2040-TechAssessment2017'}
 response = requests.post(register_api_url, data = dumps(body), headers = header)
 
-print response.text
+print response.text		# Step 1 complete
