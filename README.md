@@ -137,5 +137,5 @@ Use the key `token` for your token.
 Use the key `datestamp` for an ISO 8601 datestamp string.
 
 *Hints:*
-*- Make sure your datestamp is formatted the same way as the one the API gives you.*
-*- Dates are hard! Don’t feel badly if you’re scratching your head on this one. Most platforms have libraries to help with date and time tasks. Don’t be afraid of using one to solve this challenge.*
+- *Make sure your datestamp is formatted the same way as the one the API gives you.*
+- *Dates are hard! Don’t feel badly if you’re scratching your head on this one. Most platforms have libraries to help with date and time tasks. Don’t be afraid of using one to solve this challenge.*
